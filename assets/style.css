@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: Inter;
+}
+
+/* common styles */
+.mt {
+  margin-top: 50px;
+}
+.mb {
+  margin-bottom: 50px;
+}
+
+/* nav styles */
+#banner {
+  background-image: linear-gradient(
+      180deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(/images/\/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navSubtittle {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  font-family: ;
+}
+.navTittle {
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  width: 632px;
+}
+/* discount styles */
+.discountTittle {
+  color: rgb(255, 0, 0);
+  font-size: 88px;
+  font-weight: 700;
+  text-align: center;
+}
+.discountMintittle {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+}
+.discountSubTittle {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+.discountImage{
+    text-align: center;
+}
