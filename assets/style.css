@@ -204,3 +204,37 @@
   border: 15px solid rgb(255, 0, 0);
   padding: 50px;
 }
+/* holiday offer styles */
+.holiday__context {
+  text-align: center;
+}
+.holiday__subtittle {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday__tittle {
+  font-size: 72px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+}
+.holiday__tittle span {
+  color: rgb(255, 0, 0);
+}
+.holiday__description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 50%;
+  margin: 0 auto;
+}
+.holiday__image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-image: url(/images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  border-radius: 16px 0px 16px 16px;
+}
