@@ -323,3 +323,59 @@
   border: none;
   cursor: pointer;
 }
+/* footer styles */
+.foot {
+  background: rgb(7, 2, 17);
+}
+.foot__container {
+  color: #ffff;
+  padding: 120px 140px;
+}
+.foot__top--content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 500px;
+}
+.left__text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  width: 375px;
+  line-height: 40px;
+}
+.right {
+  text-align: right;
+}
+.right__one--text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+}
+.right__two--text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.right img {
+  margin-right: 20px;
+}
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.foot__middle--img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.right input[type="button"] {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  padding: 24px 56px;
+  background: rgb(7, 2, 17);
+  border: none;
+  cursor: pointer;
+}
